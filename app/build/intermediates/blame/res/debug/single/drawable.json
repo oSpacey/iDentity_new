@@ -456,10 +456,6 @@
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\tech_standard_equipment.jpg"
     },
     {
-        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\android.png",
-        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\android.png"
-    },
-    {
         "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tech_side_menu.jpg",
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\tech_side_menu.jpg"
     },
@@ -552,12 +548,12 @@
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\exclusivity_mso_limited_card.png"
     },
     {
-        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spec_main_oval.xml",
-        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\spec_main_oval.xml"
-    },
-    {
         "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tech_performance_data.jpg",
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\tech_performance_data.jpg"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spec_main_oval.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\spec_main_oval.xml"
     },
     {
         "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_heritage_first_image.png",
