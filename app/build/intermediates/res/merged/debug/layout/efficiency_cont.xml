@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/efficiency_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/efficiency_title"/>
+
+    <ImageView
+        android:id="@+id/efficiency_main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/efficiency_title"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="-5dp"
+        android:src="@drawable/efficiency_text"/>
+
+    <ImageView
+        android:layout_width="1900dp"
+        android:layout_height="1500sp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="630dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/efficiency" />
+
+
+
+
+</RelativeLayout>

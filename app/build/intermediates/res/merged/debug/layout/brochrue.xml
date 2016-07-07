@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/brochureLayout">
+
+    <ImageView
+        android:id="@+id/brochure_main_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/brochure_main_text"
+        android:layout_marginTop="-10dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:src="@drawable/brochure_main_image"
+        android:layout_below="@+id/brochure_main_text"
+        android:layout_marginTop="-14dp"
+        android:id="@+id/imageView4" />
+
+    <Spinner
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleSpinner"
+        android:layout_below="@+id/brochure_main_text"
+        android:layout_marginTop="-225dp"
+        android:layout_marginLeft="350dp"
+        android:entries="@array/Titles"/>
+
+    <Spinner
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/carsSpinner"
+        android:layout_below="@+id/brochure_main_text"
+        android:layout_toRightOf="@+id/titleSpinner"
+        android:layout_marginTop="-225dp"
+        android:layout_marginLeft="310dp"
+        android:entries="@array/Cars"/>
+
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="18dp"
+        android:ems="10"
+        android:id="@+id/FirstName"
+        android:hint="First name*"
+        android:layout_below="@+id/titleSpinner"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/titleSpinner"
+        android:layout_alignStart="@+id/titleSpinner" />
+
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textSize="18dp"
+        android:ems="10"
+        android:id="@+id/Surname"
+        android:hint="Surname/Family name*"
+        android:layout_below="@+id/carsSpinner"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/FirstName"
+        android:layout_marginLeft="75dp"/>
+
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="18dp"
+        android:ems="10"
+        android:id="@+id/emailAddress"
+        android:hint="Email Address*"
+        android:layout_below="@+id/FirstName"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/titleSpinner"
+        android:layout_alignStart="@+id/titleSpinner" />
+
+    <EditText
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textSize="18dp"
+        android:ems="10"
+        android:id="@+id/confirmEmail"
+        android:hint="Confirm email address*"
+        android:layout_below="@+id/Surname"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/FirstName"
+        android:layout_marginLeft="75dp"/>
+
+    <ImageView
+        android:id="@+id/sendEmail"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="1500dp"
+        android:layout_marginTop="412dp"
+        android:background="@drawable/main_ovals"
+        android:elevation="10dp"
+        android:src="@mipmap/brochure_add_btn"
+        />
+
+
+</RelativeLayout>

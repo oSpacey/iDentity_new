@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mso_defined_sports_title" />
+    <Button
+        android:layout_width="647dp"
+        android:layout_height="840dp"
+        android:background="@null"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mso_sports_text"
+        android:layout_marginTop="-15dp"
+        android:scrollbars="none"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/exclusivity_mso_super_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/exclusivity_mso_super_text"
+                android:layout_marginTop="92dp"
+                android:layout_marginLeft="0dp"/>
+
+            <ImageView
+                android:id="@+id/front_bumper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/exclusivity_mso_super_text"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/exclusivity_sport_front_car"/>
+
+            <ImageView
+                android:id="@+id/rear_bumper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/front_bumper"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/mso_defined_sports_rear_bumper"
+                android:layout_marginLeft="-5dp"/>
+
+            <ImageView
+                android:id="@+id/car_exterior"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rear_bumper"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="-5dp"
+                android:src="@drawable/mso_defined_sports_fibre_exterior"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:layout_below="@id/car_exterior"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="1800dp"
+        android:layout_height="1500sp"
+        android:layout_toRightOf="@+id/mso_sports_text"
+        android:layout_marginTop="-100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mso_defined_sports_image" />
+
+    <ImageView
+        android:id="@+id/front_of_car"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="730dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/exclusivity_oval"
+        android:elevation="10dp"
+        android:src="@mipmap/add_btn"
+        />
+
+    <ImageView
+        android:id="@+id/door_of_car"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="1290dp"
+        android:layout_marginTop="340dp"
+        android:background="@drawable/exclusivity_oval"
+        android:elevation="10dp"
+        android:src="@mipmap/add_btn"
+        />
+
+    <ImageView
+        android:id="@+id/window_of_car"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="1250dp"
+        android:layout_marginTop="270dp"
+        android:background="@drawable/main_ovals"
+        android:elevation="10dp"
+        android:src="@mipmap/add_btn"
+        />
+
+    <ImageView
+        android:id="@+id/roof_of_car"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="1190dp"
+        android:layout_marginTop="175dp"
+        android:background="@drawable/main_ovals"
+        android:elevation="10dp"
+        android:src="@mipmap/add_btn"
+        />
+
+    <ImageView
+        android:id="@+id/back_of_car"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="1730dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/exclusivity_oval"
+        android:elevation="10dp"
+        android:src="@mipmap/add_btn"
+        />
+
+</RelativeLayout>
+
+
+    </RelativeLayout>

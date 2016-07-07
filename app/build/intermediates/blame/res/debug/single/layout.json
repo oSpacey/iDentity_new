@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\heritage_customer_care.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\heritage_customer_care.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bespoke_popup_introduction.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\bespoke_popup_introduction.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bespoke_popup_perfect_mclaren.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\bespoke_popup_perfect_mclaren.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\specification.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\specification.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\heritage_popup_introduction.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\heritage_popup_introduction.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\powertrain_content.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\powertrain_content.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\acceleration_cont.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\acceleration_cont.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exclusivity.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\exclusivity.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\defined_popup_ultimate.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\defined_popup_ultimate.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\programmes_popup_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\programmes_popup_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\factory_handover.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\factory_handover.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\parent_list_item.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\parent_list_item.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\defined_popup_super_series.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\defined_popup_super_series.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\brochrue.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\brochrue.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_side_menu.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\spec_side_menu.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\overview.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\overview.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\heritage.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\heritage.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\limited_popup_can_am.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\limited_popup_can_am.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\specification_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\specification_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\body_content.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\body_content.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\child_list_item.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\child_list_item.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\heritage_brokerage.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\heritage_brokerage.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\limited_popup_mso.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\limited_popup_mso.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_car.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\login_car.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\limited_popup_spider.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\limited_popup_spider.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exclusivitymain.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\exclusivitymain.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\efficiency_cont.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\efficiency_cont.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mso.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\mso.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bespoke_popup_customisation.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\bespoke_popup_customisation.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grand_reveal.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\grand_reveal.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\programmes_popup_fitness.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\programmes_popup_fitness.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_page_rrp_card.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\spec_page_rrp_card.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_page_standard_equipment_card.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\spec_page_standard_equipment_card.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bespoke_popup_paintwork.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\bespoke_popup_paintwork.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bespoke_popup_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\bespoke_popup_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chassis_brakes.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\chassis_brakes.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\limited_popup_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\limited_popup_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\limited_popup_le_mans.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\limited_popup_le_mans.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\heritage_popup_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\heritage_popup_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\login_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_page_options_card.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\spec_page_options_card.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\programmes_popup_simulator.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\programmes_popup_simulator.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bespoke_popup_custom_interior.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\bespoke_popup_custom_interior.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\limited_popup_introduction.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\limited_popup_introduction.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_page_technical_specs_card.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\spec_page_technical_specs_card.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\breaking_content.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\breaking_content.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mclaren_f1.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\mclaren_f1.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\programmes_popup_worldclass.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\programmes_popup_worldclass.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\programmes_popup_introduction.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\programmes_popup_introduction.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\programmes_popup_track_prep.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\programmes_popup_track_prep.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_page_performance_data_card.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\spec_page_performance_data_card.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\defined_popup_main.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\defined_popup_main.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\specification_more_info.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\specification_more_info.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\defined_popup_sports_series.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\defined_popup_sports_series.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spec_main_tabs.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\layout\\spec_main_tabs.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    }
+]

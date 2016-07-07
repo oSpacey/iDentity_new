@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/exclusivity_main_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:id="@+id/msoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exclusivity_mso_button"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="593dp"/>
+
+
+        <ImageView
+            android:id="@+id/factoryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/exclusivity_factory_button"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="1080dp"/>
+
+        <ImageView
+            android:id="@+id/ex_mainImage"
+            android:layout_width="2400dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="440dp"/>
+
+
+</RelativeLayout>

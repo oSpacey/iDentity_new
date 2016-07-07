@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-21.0.3_f6cfd4550b939f3e9391f83544f0a1e9901203fc\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6a5fb0f37ffa75f8162d0d965a96e0e1280ca785">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b39a48aa95d63d730f272d4b43eeafc3284040b5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ID2013-03\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_0d01e13fab2eed8929bc1af26e6a6d7c02b92bf5\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.0_2532d0c0b140247a17576e228474729fc0733901\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.0.0_38eaeef70c4451a24ff1d0b25cd61add6d292c09\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8dc34eee93d815a3128e8671f6a1f1307efc636e">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_16d271a2e2febddf7bcac47d2d9c3450b800e442\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.1.1_35f6a3b35318fc43730ab977e5e7a7e74f4b18cf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ID2013-03\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_fd6671fa0e346943ca60d6c5086bd4b0aed22adf\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\exploded-aar\com.github.castorflex.verticalviewpager\library\19.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cac65d41873c63e90b9406c9dbccc05b15113c45">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.castorflex.verticalviewpager-library-19.0.1_716d56584a7137e32fbd9799951a4f898138d735\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_c99f622d45811d391e782acb44fcefe5a3780b24\classes.dex" />
+    </item>
+    <item
+        jar="J:\new_Android_App-master - Copy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="J:\new_Android_App-master - Copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_d82494f127bf2bf16c0b3ed24e51af840cc08f9a\classes.dex" />
+    </item>
+
+</items>
