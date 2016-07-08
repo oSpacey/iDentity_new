@@ -17,6 +17,7 @@ public class FactoryHandovers extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.factory_handover, container, false);
+        System.gc();
 
         ImageView factoryText = (ImageView)rootView.findViewById(R.id.factory_main_text);
         Glide.with(this).load(R.drawable.factory_handover_text).into(factoryText);

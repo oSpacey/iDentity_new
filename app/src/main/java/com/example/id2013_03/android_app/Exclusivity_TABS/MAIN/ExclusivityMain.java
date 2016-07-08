@@ -27,6 +27,7 @@ public class ExclusivityMain extends Fragment {
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.exclusivitymain, container, false);
+        System.gc();
 
         vert_view = (ViewPager)getActivity().findViewById(R.id.vert_view);
         msoBtn = (ImageView)rootView.findViewById(R.id.msoBtn);
@@ -43,7 +44,7 @@ public class ExclusivityMain extends Fragment {
         msoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                System.gc();
                 vert_view.setCurrentItem(1);
             }
         });
@@ -52,6 +53,7 @@ public class ExclusivityMain extends Fragment {
             @Override
             public void onClick(View v) {
                 vert_view.setCurrentItem(3);
+                System.gc();
             }
         });
 

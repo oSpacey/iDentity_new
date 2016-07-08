@@ -52,10 +52,6 @@ public class Mso_Bespoke_Popup extends POPUP_Base implements SensorEventListener
             public void onClick(View v) {
                 finish();
                 System.gc();
-                getSupportFragmentManager().popBackStack();
-                closeContextMenu();
-                closeOptionsMenu();
-                finishActivity(this.hashCode());
             }
         });
 
@@ -75,19 +71,19 @@ public class Mso_Bespoke_Popup extends POPUP_Base implements SensorEventListener
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
         });
@@ -115,16 +111,22 @@ public class Mso_Bespoke_Popup extends POPUP_Base implements SensorEventListener
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
+                    System.gc();
                     return new Introduction_Bespoke();
                 case 1:
+                    System.gc();
                     return new Custom_Interior_Tailoring();
                 case 2:
+                    System.gc();
                     return new Create_Your_Perfect_McLaren();
                 case 3:
+                    System.gc();
                     return new Bespoke_Paintwork();
                 case 4:
+                    System.gc();
                     return new Limitless_Customisation();
                 default:
+                    System.gc();
                     return null;
             }
         }
@@ -144,6 +146,7 @@ public class Mso_Bespoke_Popup extends POPUP_Base implements SensorEventListener
 
     @Override
     protected void onDestroy(){
+        System.gc();
         msensorManager.unregisterListener(this);
         super.onDestroy();
 

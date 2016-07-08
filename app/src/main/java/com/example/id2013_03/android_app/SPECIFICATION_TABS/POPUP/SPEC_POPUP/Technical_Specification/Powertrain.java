@@ -59,19 +59,20 @@ public class Powertrain extends POPUP_Base {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                System.gc();
 
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
         });

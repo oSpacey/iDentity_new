@@ -6,6 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".TABS.MainActivity">
@@ -19,6 +20,7 @@
 
         <activity
             android:name=".SPECIFICATION_TABS.POPUP.SPEC_POPUP.Technical_Specification.Powertrain"
+
             android:noHistory="true"
             android:theme="@style/chassisWin"></activity>
 

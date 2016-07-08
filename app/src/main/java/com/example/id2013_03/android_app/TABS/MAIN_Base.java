@@ -69,6 +69,7 @@ public class MAIN_Base extends AppCompatActivity {
         public void run() {
             // Perform any required operation on disconnect
             viewPager = (ViewPager)findViewById(R.id.viewPager);
+            System.gc();
             viewPager.setCurrentItem(0);
         }
     };
@@ -104,6 +105,7 @@ public class MAIN_Base extends AppCompatActivity {
     @Override
     public void onUserInteraction(){
         resetDisconnectTimer();
+        System.gc();
     }
 
 /*
@@ -116,6 +118,7 @@ public class MAIN_Base extends AppCompatActivity {
     @Override
     public void onResume() {
         super.onResume();
+        System.gc();
         resetDisconnectTimer();
     }
 
@@ -128,6 +131,7 @@ public class MAIN_Base extends AppCompatActivity {
     @Override
     public void onStop() {
         super.onStop();
+        System.gc();
         stopDisconnectTimer();
     }
 }

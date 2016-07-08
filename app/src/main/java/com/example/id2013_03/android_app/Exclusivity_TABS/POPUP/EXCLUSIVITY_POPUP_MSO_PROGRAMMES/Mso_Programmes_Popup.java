@@ -69,19 +69,19 @@ public class Mso_Programmes_Popup extends POPUP_Base implements SensorEventListe
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
-
+                System.gc();
             }
 
         });
@@ -109,16 +109,22 @@ public class Mso_Programmes_Popup extends POPUP_Base implements SensorEventListe
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
+                    System.gc();
                     return new Introduction_Programmes();
                 case 1:
+                    System.gc();
                     return new World_Class();
                 case 2:
+                    System.gc();
                     return new Simulator_Training();
                 case 3:
+                    System.gc();
                     return new Fitness_Programme();
                 case 4:
+                    System.gc();
                     return new Dedicated_Track_Preperation();
                 default:
+                    System.gc();
                     return null;
             }
         }

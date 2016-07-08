@@ -34,6 +34,7 @@ public class SpecificationMain extends Fragment {
         moreBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                System.gc();
                 vert_view_spec.setCurrentItem(1, true);
             }
         });

@@ -72,18 +72,21 @@ public class Mso_Heritage_Popup extends POPUP_Base implements SensorEventListene
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                System.gc();
 
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                System.gc();
 
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                System.gc();
 
             }
 
@@ -114,12 +117,16 @@ public class Mso_Heritage_Popup extends POPUP_Base implements SensorEventListene
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
+                    System.gc();
                     return new Introduction_Heritage();
                 case 1:
+                    System.gc();
                     return new Customer_Care();
                 case 2:
+                    System.gc();
                     return new Brokerage();
                 default:
+                    System.gc();
                     return null;
             }
         }
@@ -139,6 +146,7 @@ public class Mso_Heritage_Popup extends POPUP_Base implements SensorEventListene
 
     @Override
     protected void onDestroy(){
+        System.gc();
         msensorManager.unregisterListener(this);
         super.onDestroy();
 

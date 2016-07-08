@@ -9,24 +9,20 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.provider.Settings;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v4.widget.NestedScrollView;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.id2013_03.android_app.R;
 import com.example.id2013_03.android_app.USER_LOGIN.Login;
 
-import org.w3c.dom.Text;
 
 import fr.castorflex.android.verticalviewpager.VerticalViewPager;
 
@@ -139,6 +135,7 @@ public class MainActivity extends MAIN_Base {
         logoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                System.gc();
                 viewPager.setCurrentItem(0);
             }
         });
@@ -146,6 +143,7 @@ public class MainActivity extends MAIN_Base {
             @Override
             public boolean onLongClick(View v) {
                 finish();
+                System.gc();
                 Intent i = new Intent(MainActivity.this, Login.class);
                 startActivity(i);
 
@@ -193,17 +191,20 @@ public class MainActivity extends MAIN_Base {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                System.gc();
 
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                System.gc();
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                System.gc();
             }
 
         });
@@ -265,16 +266,22 @@ public class MainActivity extends MAIN_Base {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
+                    System.gc();
                     return new Specification();
                 case 1:
+                    System.gc();
                     return new Overview();
                 case 2:
+                    System.gc();
                     return new Exclusivity();
                 case 3:
+                    System.gc();
                     return new Heritage();
                 case 4:
+                    System.gc();
                     return new Brochure();
                 default:
+                    System.gc();
                     return null;
             }
         }

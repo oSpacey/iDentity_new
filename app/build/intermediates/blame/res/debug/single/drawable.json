@@ -384,12 +384,12 @@
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\main_ovals.xml"
     },
     {
-        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_bespoke_customisation_image.png",
-        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\mso_bespoke_customisation_image.png"
-    },
-    {
         "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spec_down_arrow.png",
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\spec_down_arrow.png"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_bespoke_customisation_image.png",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\mso_bespoke_customisation_image.png"
     },
     {
         "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tech_key_options.jpg",
@@ -548,12 +548,12 @@
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\exclusivity_mso_limited_card.png"
     },
     {
-        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tech_performance_data.jpg",
-        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\tech_performance_data.jpg"
-    },
-    {
         "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spec_main_oval.xml",
         "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\spec_main_oval.xml"
+    },
+    {
+        "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tech_performance_data.jpg",
+        "source": "J:\\new_Android_App-master - Copy\\app\\src\\main\\res\\drawable\\tech_performance_data.jpg"
     },
     {
         "merged": "J:\\new_Android_App-master - Copy\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mso_heritage_first_image.png",
