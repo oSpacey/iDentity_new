@@ -33,6 +33,8 @@ public class Brochure extends Fragment {
 
     ImageView sendBtn;
 
+    int screenCap = 0;
+
     private RelativeLayout brochureLayout;
 
 
@@ -119,7 +121,8 @@ public class Brochure extends Fragment {
             view.setOnTouchListener(new View.OnTouchListener() {
                 @Override
                 public boolean onTouch(View v, MotionEvent event) {
-                    hideSoftKeyboard(getActivity());
+                        hideSoftKeyboard(getActivity());
+
                     return false;
                 }
             });

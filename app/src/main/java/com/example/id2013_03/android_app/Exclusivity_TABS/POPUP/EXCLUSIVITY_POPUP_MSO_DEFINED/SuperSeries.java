@@ -35,11 +35,11 @@ public class SuperSeries extends Fragment {
                 toast= Toast.makeText(getActivity().getApplicationContext(),getString(R.string.notYetImplemented), Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
-                car01.setBackgroundResource(R.drawable.main_ovals);
-                car02.setBackgroundResource(R.drawable.main_ovals);
-                car03.setBackgroundResource(R.drawable.main_ovals);
-                car04.setBackgroundResource(R.drawable.main_ovals);
-                backOfCar.setBackgroundResource(R.drawable.main_ovals);
+                car01.setBackgroundResource(R.drawable.greyed_out);
+                car02.setBackgroundResource(R.drawable.greyed_out);
+                car03.setBackgroundResource(R.drawable.greyed_out);
+                car04.setBackgroundResource(R.drawable.greyed_out);
+                backOfCar.setBackgroundResource(R.drawable.greyed_out);
             }
         });
 
@@ -49,11 +49,11 @@ public class SuperSeries extends Fragment {
                 toast= Toast.makeText(getActivity().getApplicationContext(),getString(R.string.notYetImplemented), Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
-                car01.setBackgroundResource(R.drawable.main_ovals);
-                car02.setBackgroundResource(R.drawable.main_ovals);
-                car03.setBackgroundResource(R.drawable.main_ovals);
-                car04.setBackgroundResource(R.drawable.main_ovals);
-                backOfCar.setBackgroundResource(R.drawable.main_ovals);
+                car01.setBackgroundResource(R.drawable.greyed_out);
+                car02.setBackgroundResource(R.drawable.greyed_out);
+                car03.setBackgroundResource(R.drawable.greyed_out);
+                car04.setBackgroundResource(R.drawable.greyed_out);
+                backOfCar.setBackgroundResource(R.drawable.greyed_out);
             }
         });
 
@@ -63,11 +63,11 @@ public class SuperSeries extends Fragment {
                 toast= Toast.makeText(getActivity().getApplicationContext(),getString(R.string.notYetImplemented), Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
-                car01.setBackgroundResource(R.drawable.main_ovals);
-                car02.setBackgroundResource(R.drawable.main_ovals);
-                car03.setBackgroundResource(R.drawable.main_ovals);
-                car04.setBackgroundResource(R.drawable.main_ovals);
-                backOfCar.setBackgroundResource(R.drawable.main_ovals);
+                car01.setBackgroundResource(R.drawable.greyed_out);
+                car02.setBackgroundResource(R.drawable.greyed_out);
+                car03.setBackgroundResource(R.drawable.greyed_out);
+                car04.setBackgroundResource(R.drawable.greyed_out);
+                backOfCar.setBackgroundResource(R.drawable.greyed_out);
             }
         });
 
@@ -77,11 +77,11 @@ public class SuperSeries extends Fragment {
                 toast= Toast.makeText(getActivity().getApplicationContext(),getString(R.string.notYetImplemented), Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
-                car01.setBackgroundResource(R.drawable.main_ovals);
-                car02.setBackgroundResource(R.drawable.main_ovals);
-                car03.setBackgroundResource(R.drawable.main_ovals);
-                car04.setBackgroundResource(R.drawable.main_ovals);
-                backOfCar.setBackgroundResource(R.drawable.main_ovals);
+                car01.setBackgroundResource(R.drawable.greyed_out);
+                car02.setBackgroundResource(R.drawable.greyed_out);
+                car03.setBackgroundResource(R.drawable.greyed_out);
+                car04.setBackgroundResource(R.drawable.greyed_out);
+                backOfCar.setBackgroundResource(R.drawable.greyed_out);
             }
         });
 
@@ -91,11 +91,11 @@ public class SuperSeries extends Fragment {
                 toast= Toast.makeText(getActivity().getApplicationContext(),getString(R.string.notYetImplemented), Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.CENTER, 0, 0);
                 toast.show();
-                car01.setBackgroundResource(R.drawable.main_ovals);
-                car02.setBackgroundResource(R.drawable.main_ovals);
-                car03.setBackgroundResource(R.drawable.main_ovals);
-                car04.setBackgroundResource(R.drawable.main_ovals);
-                backOfCar.setBackgroundResource(R.drawable.main_ovals);
+                car01.setBackgroundResource(R.drawable.greyed_out);
+                car02.setBackgroundResource(R.drawable.greyed_out);
+                car03.setBackgroundResource(R.drawable.greyed_out);
+                car04.setBackgroundResource(R.drawable.greyed_out);
+                backOfCar.setBackgroundResource(R.drawable.greyed_out);
             }
         });
         return superView;

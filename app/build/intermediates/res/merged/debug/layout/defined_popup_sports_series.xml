@@ -109,7 +109,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="1250dp"
         android:layout_marginTop="270dp"
-        android:background="@drawable/main_ovals"
+        android:background="@drawable/greyed_out"
         android:elevation="10dp"
         android:src="@mipmap/add_btn"
         />
@@ -120,7 +120,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="1190dp"
         android:layout_marginTop="175dp"
-        android:background="@drawable/main_ovals"
+        android:background="@drawable/greyed_out"
         android:elevation="10dp"
         android:src="@mipmap/add_btn"
         />

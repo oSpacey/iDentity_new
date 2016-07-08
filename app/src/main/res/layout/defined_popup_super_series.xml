@@ -36,7 +36,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="1250dp"
         android:layout_marginTop="168dp"
-        android:background="@drawable/main_ovals"
+        android:background="@drawable/greyed_out"
         android:elevation="10dp"
         android:src="@mipmap/add_btn"
         />
@@ -47,7 +47,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="1180dp"
         android:layout_marginTop="175dp"
-        android:background="@drawable/main_ovals"
+        android:background="@drawable/greyed_out"
         android:elevation="10dp"
         android:src="@mipmap/add_btn"
         />
@@ -58,7 +58,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="1110dp"
         android:layout_marginTop="195dp"
-        android:background="@drawable/main_ovals"
+        android:background="@drawable/greyed_out"
         android:elevation="10dp"
         android:src="@mipmap/add_btn"
         />
@@ -69,7 +69,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="1030dp"
         android:layout_marginTop="235dp"
-        android:background="@drawable/main_ovals"
+        android:background="@drawable/greyed_out"
         android:elevation="10dp"
         android:src="@mipmap/add_btn"
         />
@@ -80,7 +80,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="1765dp"
         android:layout_marginTop="410dp"
-        android:background="@drawable/main_ovals"
+        android:background="@drawable/greyed_out"
         android:elevation="10dp"
         android:src="@mipmap/add_btn"
         />

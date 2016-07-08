@@ -50,16 +50,16 @@ public class SportsSeries extends Fragment {
                     sportsTextScroll.scrollTo(0, 810);
                     frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
                     doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
-                    windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                    roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                    windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                    roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                     backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                     frontCountBtn++;
                 }else{
                     sportsTextScroll.scrollTo(0, 0);
                     frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                     doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
-                    windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                    roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                    windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                    roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                     backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                     frontCountBtn--;
                 }
@@ -73,16 +73,16 @@ public class SportsSeries extends Fragment {
                 sportsTextScroll.scrollTo(0, 2380);
                 frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
-                windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                 backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                     doorCountBtn++;
             }else{
                     sportsTextScroll.scrollTo(0, 0);
                     frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                     doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
-                    windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                    roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                    windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                    roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                     backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                     doorCountBtn--;
             }
@@ -97,8 +97,8 @@ public class SportsSeries extends Fragment {
                 toast.show();
                 frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
-                windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                 backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
             }
 
@@ -112,8 +112,8 @@ public class SportsSeries extends Fragment {
                 toast.show();
                 frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
-                windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                 backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
             }
         });
@@ -125,16 +125,16 @@ public class SportsSeries extends Fragment {
                 sportsTextScroll.scrollTo(0, 1620);
                 frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
-                windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                 backOfCar.setBackgroundResource(R.drawable.exclusivity_oval_pressed);
                     backCountBtn++;
             }else{
                 sportsTextScroll.scrollTo(0, 0);
                 frontOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                 doorOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
-                windowOfCar.setBackgroundResource(R.drawable.main_ovals);
-                roofOfCar.setBackgroundResource(R.drawable.main_ovals);
+                windowOfCar.setBackgroundResource(R.drawable.greyed_out);
+                roofOfCar.setBackgroundResource(R.drawable.greyed_out);
                 backOfCar.setBackgroundResource(R.drawable.exclusivity_oval);
                     backCountBtn--;
             }
