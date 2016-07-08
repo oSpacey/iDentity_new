@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Android_App</string>
+    <string name="login_text">Login Page</string>
+    <string name="userName_text">User Name : </string>
+    <string name="userPassword_text">Password : </string>
+    <string name="attempts">Attempts</string>
+    <string name="loginUser">Login</string>
+    <string name="second_Login">Login Succesful</string>
+    <string name="notYetImplemented">Not yet Implemented</string>
+
+    <string-array name="Titles">
+    <item>Title*</item>
+    <item>Mr</item>
+    <item>Mrs</item>
+    <item>Miss</item>
+    <item>Ms</item>
+    <item>Dr</item>
+    <item>Lord</item>
+    </string-array>
+
+    <string-array name="Cars">
+        <item>570s Coupe</item>
+        <item>570 GT</item>
+        <item>540C</item>
+        <item>6775 LT</item>
+        <item>650S Spider</item>
+        <item>650S Coupe</item>
+        <item>650S CAN-AM</item>
+
+    </string-array>
+</resources>

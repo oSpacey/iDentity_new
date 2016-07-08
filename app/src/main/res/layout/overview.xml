@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+    android:id="@+id/overview_main_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/overview_main_text"
+    android:layout_marginTop="-10dp" />
+
+    <ImageView
+    android:id="@+id/overview_topicOne_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="435dp"
+    android:layout_marginTop="-130dp"
+    android:src="@drawable/overview_topic_one_btn"
+    android:layout_below="@+id/overview_main_top"/>
+
+    <ImageView
+    android:id="@+id/overview_topicTwo_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-130dp"
+    android:src="@drawable/overview_topic_two_btn"
+    android:layout_below="@+id/overview_main_top"
+    android:layout_toRightOf="@+id/overview_topicOne_btn"
+    android:layout_marginLeft="145dp"/>
+
+    <ImageView
+        android:id="@+id/overview_topicThree_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-130dp"
+        android:src="@drawable/overview_topic_three_btn"
+        android:layout_below="@+id/overview_main_top"
+        android:layout_toRightOf="@+id/overview_topicTwo_btn"
+        android:layout_marginLeft="145dp"/>
+
+    <ImageView
+        android:id="@+id/overview_image"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:src="@drawable/overview"
+        android:layout_below="@+id/overview_main_top"
+        android:layout_marginTop="-14dp"/>
+
+</RelativeLayout>

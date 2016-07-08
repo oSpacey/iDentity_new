@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/darkGrey"
+        app:paddingEnd="-1dp"
+        app:paddingStart="-1dp"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/Grey"
+        app:tabIndicatorHeight="8dp"
+        app:tabMode="fixed"
+
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white" />
+
+    <TextView
+        android:id="@+id/spec_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="20dp"
+        android:text="SPECIFICATION"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/over_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="640dp"
+        android:layout_marginTop="20dp"
+        android:text="OVERVIEW"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/exclusivity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="895dp"
+        android:layout_marginTop="20dp"
+        android:text="EXCLUSIVITY"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/heritage_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1165dp"
+        android:layout_marginTop="20dp"
+        android:text="HERITAGE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/brochure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1425dp"
+        android:layout_marginTop="20dp"
+        android:text="BROCHURE"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+
+
+    <ImageView
+        android:id="@+id/logo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/viewPager"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/darkGrey"
+        android:textSize="30dp"
+        android:src="@drawable/logo"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabLayout"
+        android:layout_centerHorizontal="true"
+        tools:context=".TABS.MainActivity" />
+
+</RelativeLayout>

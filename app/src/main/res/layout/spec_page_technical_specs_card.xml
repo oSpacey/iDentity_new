@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="1000dp"
+        android:layout_height="1150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="900dp"
+            android:layout_height="1130dp"
+            cardview:cardCornerRadius="5dp"
+            cardview:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="920dp"
+                android:layout_height="1172dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="-10dp"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/tech_scroll"
+                    android:layout_width="920dp"
+                    android:layout_height="1150dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="-50dp"
+                    android:layout_marginTop="-8dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tech_spec_tech" />
+
+                <ImageView
+                    android:id="@+id/powertrain_fab"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginTop="75dp"
+                    android:background="@drawable/spec_main_oval"
+                    android:elevation="10dp"
+                    android:src="@mipmap/add_btn"
+                    />
+
+                <ImageView
+                    android:id="@+id/brakes_fab"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="508dp"
+                    android:background="@drawable/spec_main_oval"
+                    android:elevation="10dp"
+                    android:src="@mipmap/add_btn"
+                    />
+
+                <ImageView
+                    android:id="@+id/body_fab"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="870dp"
+                    android:background="@drawable/spec_main_oval"
+                    android:elevation="10dp"
+                    android:src="@mipmap/add_btn"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

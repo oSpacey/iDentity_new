@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/spec_side_menu"
+        layout="@layout/spec_side_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spec_backImg"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:id="@+id/under_side_menu"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:src="@drawable/tech_under_side_menu"
+        android:layout_below="@+id/spec_side_menu"
+        android:layout_marginLeft="260dp"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/child_scroll"
+        android:layout_width="920dp"
+        android:layout_height="920dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/spec_backImg"
+        android:layout_marginRight="180dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:id="@+id/sideScroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp">
+
+                <include
+                    android:id="@+id/first"
+                    layout="@layout/spec_page_technical_specs_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/spec_backImg"
+                    android:layout_marginTop="78dp" />
+
+                <include
+                    android:id="@+id/second"
+                    layout="@layout/spec_page_performance_data_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/first"
+                    android:layout_marginTop="78dp" />
+
+                <include
+                    android:id="@+id/third"
+                    layout="@layout/spec_page_standard_equipment_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/second"
+                    android:layout_marginTop="78dp" />
+
+                <include
+                    android:id="@+id/fourth"
+                    layout="@layout/spec_page_rrp_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/third"
+                    android:layout_marginTop="78dp" />
+
+                <include
+                    android:id="@+id/fifth"
+                    layout="@layout/spec_page_options_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/fourth"
+                    android:layout_marginTop="50dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/sideScroll"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="-5dp">
+
+                <Button
+                    android:id="@+id/far_left"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Logo" />
+
+                <Button
+                    android:id="@+id/left_center"
+                    android:layout_width="120dp"
+                    android:layout_height="75dp"
+                    android:layout_marginLeft="285dp"
+                    android:layout_marginTop="55dp"
+                    android:text="Logo" />
+
+                <Button
+                    android:id="@+id/right_center"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="452dp"
+                    android:layout_marginTop="30dp"
+                    android:text="Logo" />
+
+                <Button
+                    android:id="@+id/far_right"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="625dp"
+                    android:layout_marginTop="80dp"
+                    android:text="Logo" />
+
+                <ImageView
+                    android:id="@+id/backToTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/right_center"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="280dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/spec_back_to_top" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
