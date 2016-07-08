@@ -10,6 +10,8 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 
@@ -39,6 +41,7 @@ public class SportsSeries extends Fragment {
         backOfCar = (ImageView)sportsView.findViewById(R.id.back_of_car);
 
         sportsTextScroll = (ScrollView)sportsView.findViewById(R.id.mso_sports_text);
+
 
         frontOfCar.setOnClickListener(new View.OnClickListener() {
             @Override

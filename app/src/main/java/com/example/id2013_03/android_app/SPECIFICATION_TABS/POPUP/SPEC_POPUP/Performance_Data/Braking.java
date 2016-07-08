@@ -11,6 +11,7 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
 import com.example.id2013_03.android_app.R;
 
 import com.example.id2013_03.android_app.TABS.POPUP_Base;
@@ -26,6 +27,8 @@ public class Braking extends POPUP_Base {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spec_main_tabs);
+
+
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -44,6 +47,9 @@ public class Braking extends POPUP_Base {
                 finish();
             }
         });
+
+
+
 
         viewPager = (ViewPager) findViewById(R.id.exclusivity_pop_View);
         viewPager.setAdapter(new CustomAdapter(getSupportFragmentManager(), getApplicationContext()));
@@ -73,6 +79,7 @@ public class Braking extends POPUP_Base {
             }
 
         });
+
 
 
     }

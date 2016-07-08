@@ -11,6 +11,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 import fr.castorflex.android.verticalviewpager.VerticalViewPager;
@@ -34,10 +35,18 @@ public class ExclusivityMain extends Fragment {
         factoryBtn = (ImageView)rootView.findViewById(R.id.factoryBtn);
 
         ImageView exclusivityMainText = (ImageView)rootView.findViewById(R.id.exclusivity_main_text);
-        Glide.with(this).load(R.drawable.exclusivity_main_text).into(exclusivityMainText);
+        Glide.with(this)
+                .load(R.drawable.exclusivity_main_text)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(exclusivityMainText);
 
         ImageView exclusivityMainImage = (ImageView)rootView.findViewById(R.id.ex_mainImage);
-        Glide.with(this).load(R.drawable.exclusivity_main_image).into(exclusivityMainImage);
+        Glide.with(this)
+                .load(R.drawable.exclusivity_main_image)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(exclusivityMainImage);
 
 
 

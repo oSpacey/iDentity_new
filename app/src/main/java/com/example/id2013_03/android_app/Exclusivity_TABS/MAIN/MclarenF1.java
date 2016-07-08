@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.Exclusivity_TABS.POPUP.EXCLUSIVITY_POPUP_MSO_BESPOKE.Mso_Bespoke_Popup;
 import com.example.id2013_03.android_app.Exclusivity_TABS.POPUP.EXCLUSIVITY_POPUP_MSO_DEFINED.Mso_Defined_Popup;
 import com.example.id2013_03.android_app.Exclusivity_TABS.POPUP.EXCLUSIVITY_POPUP_MSO_HERITAGE.Mso_Heritage_Popup;
@@ -34,7 +35,11 @@ public class MclarenF1 extends Fragment {
         msoLimited = (ImageView)rootView.findViewById(R.id.mso_limited_btn);
 
         ImageView definedImage = (ImageView)rootView.findViewById(R.id.mso_Defined_Image);
-        Glide.with(this).load(R.drawable.exclusivity_mso_defined_card).into(definedImage);
+        Glide.with(this)
+                .load(R.drawable.exclusivity_mso_defined_card)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(definedImage);
 
         ImageView bespokeImage = (ImageView)rootView.findViewById(R.id.mso_bespoke_Image);
         Glide.with(this).load(R.drawable.exclusivity_mso_bespoke_card).into(bespokeImage);

@@ -73,6 +73,7 @@
     </ScrollView>
 
     <ImageView
+
         android:layout_width="1800dp"
         android:layout_height="1500sp"
         android:layout_toRightOf="@+id/mso_sports_text"

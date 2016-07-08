@@ -5,13 +5,23 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 
 public class Limitless_Customisation extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View limitCustomView = inflater.inflate(R.layout.bespoke_popup_customisation, container, false);
+
+        ImageView limitCustomImage = (ImageView)limitCustomView.findViewById(R.id.exclusivity_bespoke_custom_Image);
+        Glide.with(this)
+                .load(R.drawable.mso_bespoke_customisation_image)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(limitCustomImage);
 
         return limitCustomView;
     }

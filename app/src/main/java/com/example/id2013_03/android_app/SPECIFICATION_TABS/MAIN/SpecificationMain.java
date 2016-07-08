@@ -8,8 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
-import com.example.id2013_03.android_app.TABS.Specification;
 
 import fr.castorflex.android.verticalviewpager.VerticalViewPager;
 
@@ -26,10 +26,18 @@ public class SpecificationMain extends Fragment {
         moreBtn = (ImageView)rootView.findViewById(R.id.moreBtn);
 
         ImageView specMain = (ImageView)rootView.findViewById(R.id.spec_backImg);
-        Glide.with(this).load(R.drawable.spec_main).into(specMain);
+        Glide.with(this)
+                .load(R.drawable.spec_main)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(specMain);
 
         ImageView MoreBtn = (ImageView)rootView.findViewById(R.id.moreBtn);
-        Glide.with(this).load(R.drawable.spec_down_arrow).into(MoreBtn);
+        Glide.with(this)
+                .load(R.drawable.spec_down_arrow)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(MoreBtn);
 
         moreBtn.setOnClickListener(new View.OnClickListener() {
             @Override

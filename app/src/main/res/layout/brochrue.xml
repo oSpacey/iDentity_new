@@ -9,17 +9,15 @@
         android:id="@+id/brochure_main_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/brochure_main_text"
         android:layout_marginTop="-10dp"/>
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="1000dp"
-        android:src="@drawable/brochure_main_image"
         android:layout_below="@+id/brochure_main_text"
         android:layout_marginTop="-14dp"
-        android:id="@+id/imageView4" />
+        android:id="@+id/mainImageBrochure" />
 
     <Spinner
         android:layout_width="315dp"

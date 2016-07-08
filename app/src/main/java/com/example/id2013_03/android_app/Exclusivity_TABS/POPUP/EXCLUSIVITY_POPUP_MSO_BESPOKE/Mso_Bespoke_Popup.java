@@ -22,9 +22,6 @@ import com.example.id2013_03.android_app.TABS.POPUP_Base;
 
 import static android.view.Gravity.BOTTOM;
 
-/**
- * Created by ID2013-03 on 31/05/2016.
- */
 public class Mso_Bespoke_Popup extends POPUP_Base implements SensorEventListener{
     ViewPager viewPager;
     TabLayout tabLayout;

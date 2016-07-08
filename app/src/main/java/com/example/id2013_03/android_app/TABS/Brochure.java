@@ -16,6 +16,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 
@@ -55,6 +57,20 @@ public class Brochure extends Fragment {
 
         brochureLayout = (RelativeLayout)rootView.findViewById(R.id.brochureLayout);
         onTapOutside(brochureLayout);
+
+        ImageView brochureText = (ImageView)rootView.findViewById(R.id.brochure_main_text);
+        Glide.with(this)
+                .load(R.drawable.brochure_main_text)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(brochureText);
+
+        ImageView brochureImage = (ImageView)rootView.findViewById(R.id.mainImageBrochure);
+        Glide.with(this)
+                .load(R.drawable.brochure_main_image)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(brochureImage);
 
 
 

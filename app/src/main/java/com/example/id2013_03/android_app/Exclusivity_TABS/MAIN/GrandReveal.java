@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 /**
@@ -27,7 +28,11 @@ public class GrandReveal extends Fragment {
         backToTop = (ImageView)rootView.findViewById(R.id.grand_BackTop);
 
         ImageView grandReveal = (ImageView)rootView.findViewById(R.id.grand_reveal);
-        Glide.with(this).load(R.drawable.exclusivity_bottom).into(grandReveal);
+        Glide.with(this)
+                .load(R.drawable.exclusivity_bottom)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(grandReveal);
 
 
         backToTop.setOnClickListener(new View.OnClickListener() {

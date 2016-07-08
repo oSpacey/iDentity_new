@@ -112,7 +112,11 @@ public class Spec_MoreInfo extends Fragment {
         efficiency_fab = (ImageView) rootView.findViewById(R.id.efficiency_fab);
 
 
+        ImageView specUnderMenu = (ImageView)rootView.findViewById(R.id.under_side_menu);
+        Glide.with(this)
+                .load(R.drawable.tech_under_side_menu)
 
+                .into(specUnderMenu);
 
 
 

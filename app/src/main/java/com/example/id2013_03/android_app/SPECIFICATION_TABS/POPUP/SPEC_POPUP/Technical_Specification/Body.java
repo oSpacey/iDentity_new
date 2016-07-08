@@ -90,12 +90,16 @@ public class Body extends POPUP_Base {
         public Fragment getItem(int position) {
             switch (position) {
                 case 0:
+                    System.gc();
                     return new Powertrain_Content();
                 case 1:
+                    System.gc();
                     return new Brakes_Content();
                 case 2:
+                    System.gc();
                     return new Body_Content();
                 default:
+                    System.gc();
                     return null;
             }
         }

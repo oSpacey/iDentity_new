@@ -5,7 +5,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 /**
@@ -14,6 +17,13 @@ import com.example.id2013_03.android_app.R;
 public class Introduction_Bespoke extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View introBespokeView = inflater.inflate(R.layout.bespoke_popup_introduction, container, false);
+
+        ImageView introBespokeImage = (ImageView)introBespokeView.findViewById(R.id.exclusivity_bespoke_intro_image);
+        Glide.with(this)
+                .load(R.drawable.mso_bespoke_intro_image)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(introBespokeImage);
 
         return introBespokeView;
     }

@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 /*
@@ -40,10 +41,18 @@ public class Overview extends Fragment {
         System.gc();
 
         ImageView overviewText = (ImageView)view.findViewById(R.id.overview_main_top);
-        Glide.with(this).load(R.drawable.overview_main_text).into(overviewText);
+        Glide.with(this)
+                .load(R.drawable.overview_main_text)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(overviewText);
 
         ImageView overviewImage = (ImageView)view.findViewById(R.id.overview_image);
-        Glide.with(this).load(R.drawable.overview).into(overviewImage);
+        Glide.with(this)
+                .load(R.drawable.overview)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(overviewImage);
 
 
 

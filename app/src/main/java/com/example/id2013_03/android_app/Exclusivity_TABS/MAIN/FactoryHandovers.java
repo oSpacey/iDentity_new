@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.example.id2013_03.android_app.R;
 
 /**
@@ -20,10 +21,18 @@ public class FactoryHandovers extends Fragment {
         System.gc();
 
         ImageView factoryText = (ImageView)rootView.findViewById(R.id.factory_main_text);
-        Glide.with(this).load(R.drawable.factory_handover_text).into(factoryText);
+        Glide.with(this)
+                .load(R.drawable.factory_handover_text)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(factoryText);
 
         ImageView factoryImage = (ImageView)rootView.findViewById(R.id.factory_main_image);
-        Glide.with(this).load(R.drawable.factory_handowver_image).into(factoryImage);
+        Glide.with(this)
+                .load(R.drawable.factory_handowver_image)
+                .diskCacheStrategy(DiskCacheStrategy.NONE)
+                .skipMemoryCache(true)
+                .into(factoryImage);
 
 
         return rootView;

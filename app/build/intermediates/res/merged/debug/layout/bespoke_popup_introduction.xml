@@ -25,12 +25,12 @@
         android:src="@drawable/popup_intro"/>
 
     <ImageView
+        android:id="@+id/exclusivity_bespoke_intro_image"
         android:layout_width="1900dp"
         android:layout_height="1500sp"
         android:layout_marginTop="-30dp"
         android:layout_marginLeft="630dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/mso_bespoke_intro_image" />
+        android:scaleType="fitXY" />
 
 
 </RelativeLayout>

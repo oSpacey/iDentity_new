@@ -20,6 +20,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.id2013_03.android_app.Exclusivity_TABS.MAIN.CustomViewPager;
 import com.example.id2013_03.android_app.R;
 import com.example.id2013_03.android_app.USER_LOGIN.Login;
 
@@ -43,7 +44,7 @@ public class MainActivity extends MAIN_Base {
 */
     ViewPager viewPager;
     VerticalViewPager vertSpec;
-    ViewPager vertEx;
+    CustomViewPager vertEx;
     TabLayout tabLayout;
 
     TextView specTx;
@@ -191,20 +192,65 @@ public class MainActivity extends MAIN_Base {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                vertSpec = (VerticalViewPager)findViewById(R.id.vert_view_spec);
+                vertEx = (CustomViewPager) findViewById(R.id.vert_view);
+
+                int vertSpecNum = vertSpec.getCurrentItem();
+                int vertExNum = vertEx.getCurrentItem();
+
                 System.gc();
+
+                if(vertSpecNum != 0){
+                    vertSpec.setCurrentItem(0);
+                }
+
+                if(vertExNum != 0){
+                    vertEx.setCurrentItem(0);
+                }
 
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+
+                vertSpec = (VerticalViewPager)findViewById(R.id.vert_view_spec);
+                vertEx = (CustomViewPager) findViewById(R.id.vert_view);
+
+                int vertSpecNum = vertSpec.getCurrentItem();
+                int vertExNum = vertEx.getCurrentItem();
+
                 System.gc();
+
+                if(vertSpecNum != 0){
+                    vertSpec.setCurrentItem(0);
+                }
+
+                if(vertExNum != 0){
+                    vertEx.setCurrentItem(0);
+                }
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+
+                vertSpec = (VerticalViewPager) findViewById(R.id.vert_view_spec);
+                vertEx = (CustomViewPager) findViewById(R.id.vert_view);
+
+                int vertSpecNum = vertSpec.getCurrentItem();
+                int vertExNum = vertEx.getCurrentItem();
+
                 System.gc();
+
+                if (vertSpecNum != 0) {
+                    vertSpec.setCurrentItem(0);
+                }
+
+
+                if(vertExNum != 0){
+                    vertEx.setCurrentItem(0);
+                }
             }
 
         });

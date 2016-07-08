@@ -8,13 +8,12 @@
         android:id="@+id/heritage_main_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/heritage_main_text"
         android:layout_marginTop="-10dp"/>
 
     <ImageView
+        android:id="@+id/heritage_Image"
         android:layout_width="match_parent"
         android:layout_height="1000dp"
-        android:src="@drawable/heritage_image"
         android:layout_below="@+id/heritage_main_text"
         android:layout_marginTop="-14dp"/>
 </RelativeLayout>
